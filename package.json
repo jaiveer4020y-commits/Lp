@@ -10,11 +10,10 @@
     "puppeteer-core": "^21.5.0",
     "chrome-aws-lambda": "^10.1.0",
     "cors": "^2.8.5",
-    "rate-limiter-flexible": "^3.0.8",
-    "node-cache": "^5.1.2"
+    "rate-limiter-flexible": "^3.0.8"
   },
   "devDependencies": {
-    "vercel": "^28.0.0"
+    "@vercel/node": "^2.0.0"
   },
   "engines": {
     "node": "18.x"
