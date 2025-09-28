@@ -1,7 +1,7 @@
 {
   "name": "asiacloud-scraper-api",
-  "version": "1.0.0",
-  "description": "Vercel API for scraping AsiaCloud buttons from RiveStream",
+  "version": "2.0.0",
+  "description": "Vercel API for scraping AsiaCloud buttons using proxy services",
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev"
