@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+      },
+      "continue": true
+    }
+  ]
+}
