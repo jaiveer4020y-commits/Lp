@@ -1,8 +1,6 @@
-const cors = require('../middleware/cors');
-
 module.exports = async (req, res) => {
-  if (cors(req, res)) return;
-
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Content-Type', 'application/json');
 
   res.status(200).json({
