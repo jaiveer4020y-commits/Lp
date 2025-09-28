@@ -7,6 +7,7 @@ module.exports = async (req, res) => {
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
     memory: process.memoryUsage(),
-    nodeVersion: process.version
+    nodeVersion: process.version,
+    platform: process.platform
   });
 };
