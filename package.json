@@ -6,15 +6,7 @@
   "scripts": {
     "dev": "vercel dev"
   },
-  "dependencies": {
-    "puppeteer-core": "^21.5.0",
-    "chrome-aws-lambda": "^10.1.0",
-    "cors": "^2.8.5",
-    "rate-limiter-flexible": "^3.0.8"
-  },
-  "devDependencies": {
-    "@vercel/node": "^2.0.0"
-  },
+  "dependencies": {},
   "engines": {
     "node": "22.x"
   }
